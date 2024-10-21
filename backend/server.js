@@ -4,7 +4,8 @@ const path = require('path');
 const tesseract = require('tesseract.js');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const Card = require('./models/Card');
+// const Card = require('./models/Card');
+const Card = require('./models/card')
 require('dotenv').config();
 
 // Initialize Express app
